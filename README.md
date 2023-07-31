@@ -35,7 +35,7 @@ The following hyperparameters were used during training:
 
 ## Data
 在**PromptCBLUE**的基础训练数据上，扩充了到了235k条训练数据, 具体扩充方法见[PromptCBLUE_data](script/PromptCBLUE_data/README.md)
-训练数据文件：[file](script/PromptCBLUE_data/bgiv3.zip)
+训练数据文件：[file](data/PromptCBLUE.zip)
 
 数据: total: 166779
 | type         | 训练数据    |
