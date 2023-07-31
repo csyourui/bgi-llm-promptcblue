@@ -1,0 +1,17 @@
+accelerate==0.20.3
+bitsandbytes==0.39.0
+black>=23.1.0
+datasets==2.12.0
+deepspeed==0.9.2
+evaluate==0.4.0
+isort>=5.5.4
+numpy>=1.24.1
+peft @ git+https://github.com/huggingface/peft.git@13e53fc7ee5d89d59b16523051006dddf0fb7a49
+protobuf==3.20.3
+ruff>=0.0.241,<=0.0.259
+scikit-learn==1.2.2
+sentencepiece>=0.1.99
+tokenizers==0.13.3
+torch==2.0.1+cu118
+transformers==4.30.2
+wandb==0.15.3
