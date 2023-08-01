@@ -8,6 +8,7 @@
 
 微调：
 ```shell
+chmod 755 ./promptcblue/supervised_finetuning/fintune.sh
 ./promptcblue/supervised_finetuning/fintune.sh
 ```
 ### Training hyperparameters
@@ -67,7 +68,11 @@ f"Write a response that appropriately completes the Input.\n\nInput:\n{input}\n\
 ## Generate
 下载模型[https://huggingface.co/yourui/bgi-promptcblue-baichuan-13b](https://huggingface.co/yourui/bgi-promptcblue-baichuan-13b)，并保存在model目录下
 
+> 为了加速推理，推理数据分成八份，每份由一张卡推理。
+
 ```shell
-chmod 755 ./script/PromptCBLUE_generate/generate_all.sh ./script/PromptCBLUE_generate/baichuan/generate.sh
+chmod 755 ./script/PromptCBLUE_generate/generate_all.sh 
+chmod 755 ./script/PromptCBLUE_generate/baichuan/generate.sh
+
 ./script/PromptCBLUE_generate/generate_all.sh baichuan
 ```

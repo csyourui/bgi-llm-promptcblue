@@ -2,6 +2,9 @@
 model/
 submit/
 data/
+promptcblue/supervised_finetuning/log
+promptcblue/supervised_finetuning/output_models
+script/PromptCBLUE_generate/baichuan/output
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

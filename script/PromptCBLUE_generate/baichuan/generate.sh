@@ -9,5 +9,4 @@ deepspeed --master_port=$((11000 + $1)) --include localhost:$1\
   --deepspeed ${script_dir}/ds_config.json \
   --max_new_tokens 2048 \
   --temperature 0.7 \
-  --inference_batch_size_per_device 1 \
-  --max_generate_samples 200
+  --inference_batch_size_per_device 1
