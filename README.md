@@ -1,4 +1,6 @@
 # bgi-llm-promptcblue
+我们参考[run_clm.py](https://github.com/huggingface/transformers/blob/main/examples/pytorch/language-modeling/run_clm.py)，实现了对`causal language`模型的微调
+并在[CCKS2023-PromptCBLUE中文医疗大模型评测基准—开源赛道](https://tianchi.aliyun.com/competition/entrance/532084/rankingList)中取得了A榜第2, B榜第2的成绩。
 
 ## Training procedure
 我们在baichuan-13b模型基座上，对全量参数进行了有监督的微调, (区别于通用的sft方案，我们在计算loss按照预训练的策略对于全部的token均计算了loss)

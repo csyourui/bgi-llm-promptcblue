@@ -1,7 +1,7 @@
 # bgi-llm
-model/
+model/*
 submit/
-data/
+data/*
 promptcblue/supervised_finetuning/log
 promptcblue/supervised_finetuning/output_models
 script/PromptCBLUE_generate/baichuan/output
